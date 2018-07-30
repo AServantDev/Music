@@ -6,17 +6,10 @@ import java.util.*;
  */
 public class Bands extends Music {
 
-    /**
-     * Default constructor
-     */
-    public Bands() {
-    }
-
-    /**
-     * 
-     */
-    public void showBand() {
-        // TODO implement here
+   
+	public void showBand() {
+        System.out.println("Le groupe " + getName() + " est composé de " + getMembers() + " membres " 
+    + "qui sont " + getGuitar() + ", " + getSing() + ", " + getBass() + ", " + getDrum() + ".");
     }
 
 }

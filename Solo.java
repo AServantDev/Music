@@ -6,17 +6,12 @@ import java.util.*;
  */
 public class Solo extends Music {
 
-    /**
-     * Default constructor
-     */
-    public Solo() {
-    }
 
     /**
      * 
      */
     public void showArtist() {
-        // TODO implement here
+       System.out.println("L'artiste " + getSing() + " fait une carrière en solo.");
     }
 
 }
